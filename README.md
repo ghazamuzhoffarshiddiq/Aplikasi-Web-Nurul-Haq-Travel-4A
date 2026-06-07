@@ -162,7 +162,7 @@ Nurul-Haq-Travel
 1. Clone repository.
 
 ```bash
-git clone https://github.com/username/nurul-haq-travel.git
+git clone https://github.com/ghazamuzhoffarshiddiq/nurul-haq-travel.git
 ```
 
 2. Pindahkan proyek ke folder `htdocs` pada XAMPP.
