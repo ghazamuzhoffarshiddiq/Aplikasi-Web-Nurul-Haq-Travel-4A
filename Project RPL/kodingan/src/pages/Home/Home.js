@@ -202,3 +202,15 @@ faqItems.forEach(item => {
   });
 
 });
+
+function pilihPaket(namaPaket){
+
+document.getElementById("paket").value = namaPaket;
+
+document
+.getElementById("daftar")
+.scrollIntoView({
+    behavior:'smooth'
+});
+
+}
