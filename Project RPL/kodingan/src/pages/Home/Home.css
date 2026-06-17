@@ -1470,3 +1470,301 @@
   background:#065f46;
   transform:translateY(-2px);
 }
+
+.cta-konsultasi{
+  padding:100px 20px;
+  background:#064e3b;
+  text-align:center;
+  color:white;
+}
+
+.cta-container{
+  max-width:900px;
+  margin:auto;
+}
+
+.badge-cta{
+  display:inline-block;
+  background:#f59e0b;
+  color:white;
+  padding:8px 18px;
+  border-radius:999px;
+  margin-bottom:20px;
+  font-size:14px;
+}
+
+.cta-konsultasi h2{
+  font-size:42px;
+  font-weight:700;
+  margin-bottom:20px;
+}
+
+.cta-konsultasi p{
+  max-width:700px;
+  margin:auto;
+  line-height:1.8;
+  opacity:.9;
+}
+
+.cta-buttons{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  margin-top:35px;
+  flex-wrap:wrap;
+}
+
+.btn-wa-big{
+  background:#25D366;
+  color:white;
+  padding:15px 30px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.btn-lihat-paket{
+  background:white;
+  color:#064e3b;
+  padding:15px 30px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.btn-wa-big:hover,
+.btn-lihat-paket:hover{
+  transform:translateY(-2px);
+  transition:.3s;
+}
+
+/* CTA MODERN */
+
+.cta-konsultasi{
+  position: relative;
+  z-index: 10;
+  padding: 0 20px;
+  margin-bottom: -90px;
+}
+
+.cta-container{
+  max-width: 1100px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 60px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0,0,0,.08);
+}
+
+.badge-cta{
+  display:inline-block;
+  background:#f59e0b;
+  color:white;
+  padding:8px 20px;
+  border-radius:999px;
+  font-size:14px;
+  font-weight:600;
+  margin-bottom:20px;
+}
+
+.cta-container h2{
+  font-size:42px;
+  font-weight:700;
+  color:#064e3b;
+  margin-bottom:20px;
+}
+
+.cta-container p{
+  max-width:700px;
+  margin:auto;
+  color:#6b7280;
+  line-height:1.8;
+}
+
+.cta-stats{
+  display:flex;
+  justify-content:center;
+  gap:60px;
+  margin:40px 0;
+  flex-wrap:wrap;
+}
+
+.cta-stat h3{
+  font-size:32px;
+  font-weight:700;
+  color:#047857;
+  margin-bottom:5px;
+}
+
+.cta-stat span{
+  color:#6b7280;
+  font-size:14px;
+}
+
+.cta-buttons{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+.btn-wa-big{
+  background:#25D366;
+  color:white;
+  padding:16px 30px;
+  border-radius:12px;
+  text-decoration:none;
+  font-weight:600;
+  transition:.3s;
+}
+
+.btn-wa-big:hover{
+  transform:translateY(-3px);
+}
+
+.btn-lihat-paket{
+  background:#064e3b;
+  color:white;
+  padding:16px 30px;
+  border-radius:12px;
+  text-decoration:none;
+  font-weight:600;
+  transition:.3s;
+}
+
+.btn-lihat-paket:hover{
+  transform:translateY(-3px);
+}
+
+/* AGAR MENYATU DENGAN FOOTER */
+
+.footer-wave{
+  margin-top:0;
+}
+
+.footer-modern{
+  padding-top:180px;
+}
+
+@media(max-width:768px){
+
+  .cta-container{
+    padding:40px 25px;
+  }
+
+  .cta-container h2{
+    font-size:30px;
+  }
+
+  .cta-stats{
+    gap:30px;
+  }
+
+}
+
+.cta-premium{
+  position:relative;
+  overflow:hidden;
+
+  background:
+  linear-gradient(
+  135deg,
+  #064e3b,
+  #047857
+  );
+
+  padding:100px 20px;
+  text-align:center;
+  color:white;
+}
+
+.cta-overlay{
+  position:absolute;
+  inset:0;
+
+  background:
+  radial-gradient(
+  circle at top right,
+  rgba(255,255,255,.08),
+  transparent 40%
+  );
+}
+
+.cta-content{
+  position:relative;
+  z-index:2;
+  max-width:1000px;
+  margin:auto;
+}
+
+.cta-badge{
+  display:inline-block;
+  background:#f59e0b;
+  padding:10px 20px;
+  border-radius:999px;
+  font-weight:600;
+  margin-bottom:20px;
+}
+
+.cta-premium h2{
+  font-size:52px;
+  font-weight:700;
+  margin-bottom:20px;
+}
+
+.cta-premium p{
+  max-width:700px;
+  margin:auto;
+  opacity:.9;
+  line-height:1.8;
+}
+
+.cta-stats{
+  display:flex;
+  justify-content:center;
+  gap:80px;
+  margin:50px 0;
+  flex-wrap:wrap;
+}
+
+.cta-stats h3{
+  font-size:42px;
+  font-weight:700;
+  color:#f59e0b;
+}
+
+.cta-stats span{
+  font-size:15px;
+}
+
+.cta-buttons{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+.btn-wa-premium{
+  background:#25D366;
+  color:white;
+  text-decoration:none;
+  padding:18px 34px;
+  border-radius:12px;
+  font-weight:600;
+}
+
+.btn-outline-premium{
+  border:2px solid white;
+  color:white;
+  text-decoration:none;
+  padding:18px 34px;
+  border-radius:12px;
+  font-weight:600;
+}
+
+.btn-wa-premium:hover,
+.btn-outline-premium:hover{
+  transform:translateY(-3px);
+  transition:.3s;
+}
